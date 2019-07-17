@@ -2,7 +2,7 @@ import pkg from './package'
 //import webpack from 'webpack'
 
 export default {
-  mode: 'universal',
+  mode: 'spi',
 
   /*
   ** Headers of the page
