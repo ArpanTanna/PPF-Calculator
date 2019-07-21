@@ -5,6 +5,6 @@
 ## Explanation
 
 ``` bash
-You can calculate PPF interest for last 3 years using this calculator.
+You can calculate PPF interest for each year using this calculator.
 ```
 
