@@ -79,7 +79,7 @@
                                 <div class="card mb-4">
                                     <div class="card-body">
                                         <div class="clearfix" v-for="(dep, index) in deposit">
-                                            <deposit v-bind:record="dep" v-on:delete-row="deleteRow(_index)"></deposit>
+                                            <deposit v-bind:record="dep" v-on:delete-row="deleteRow(index)"></deposit>
                                         </div>
                                         <div class="clearfix mt-1" v-if="deposit.length < 12">
                                             <a href="javascript:void(0);" class="btn btn-primary btn-sm" @click="addDeposit()">+ Add New</a>
@@ -239,7 +239,7 @@ export default {
         },
 
         deleteRow(index) {
-	        this.deposit.splice(_index, 1);
+	        this.deposit.splice(index, 1);
         },
 
         applyAuto() {

@@ -48,6 +48,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org/docs/
         'bootstrap-vue/nuxt',
         '@nuxtjs/moment',
+        '@bazzite/nuxt-netlify',
         //'nuxt-fontawesome'
         ['nuxt-fontawesome', {
           //component: 'fa',
